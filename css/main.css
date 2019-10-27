@@ -18,7 +18,8 @@ header {
   margin: 0;
 }
 
-.grains h2 {
+.grains h1 {
+  align-items: center;
   display: flex;
   font-size: 2rem;
   margin: 0;
@@ -27,7 +28,7 @@ header {
 }
 
 .grains img {
-  width: 5%;
+  width: 10%;
 }
 
 .list ul {
