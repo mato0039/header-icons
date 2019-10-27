@@ -12,36 +12,41 @@ body {
   margin: 0;
 }
 
-.nav {
+header {
   background-color: #d05c2e;
   color: #fff;
-  display: flex;
-  justify-content: center;
+  margin: 0;
 }
 
-.nav h2 {
+.grains h2 {
+  display: flex;
   font-size: 2rem;
   margin: 0;
   padding: .5em 0;
+  justify-content: space-between;
 }
 
-.nav ul {
+.grains img {
+  width: 5%;
+}
+
+.list ul {
   display: flex;
+  justify-content: space-around;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-.nav li {
+.list li {
+  border: 1px solid #a63f38;
   padding: .4rem 0;
+  text-align: center;
+  width: 100%;
 }
 
-.nav a {
+.list a {
   color: #fff;
   font-size: 1.125rem;
   text-decoration: none;
-}
-
-.grain img {
-  width: 20%;
 }
