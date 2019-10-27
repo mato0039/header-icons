@@ -23,7 +23,7 @@ header {
   display: flex;
   font-size: 2rem;
   margin: 0;
-  padding: .5em 0;
+  padding: .4em 0;
   justify-content: space-between;
 }
 
@@ -40,8 +40,9 @@ header {
 }
 
 .list li {
-  border: 1px solid #a63f38;
-  padding: .4rem 0;
+  border: .8px solid #a63f38;
+  border-left: none;
+  padding: .5rem 0;
   text-align: center;
   width: 100%;
 }
@@ -50,4 +51,8 @@ header {
   color: #fff;
   font-size: 1.125rem;
   text-decoration: none;
+}
+
+.list li:hover {
+  background-color: #a63f38;
 }
